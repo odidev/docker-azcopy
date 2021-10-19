@@ -5,6 +5,10 @@ dist: bionic
 services:
   - docker
 
+arch:
+  - amd64
+  - arm64
+
 stages:
   - Static test
   - Build test
